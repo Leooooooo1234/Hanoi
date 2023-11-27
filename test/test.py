@@ -1,5 +1,9 @@
 import unittest
-from ..src.hanoi import move
+import os
+import sys
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from src.hanoi import move
 
 class HanoiTestCase(unittest.TestCase):
     def test_hanoi(self):
