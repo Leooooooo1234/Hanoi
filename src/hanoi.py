@@ -1,4 +1,4 @@
-import random
+# import random
 def move(n, A, B, C, count=0):
     if n == 1:
         count += 1
