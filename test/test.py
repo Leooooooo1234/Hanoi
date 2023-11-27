@@ -1,5 +1,5 @@
 import unittest
-from hanoi import move
+from ..src.hanoi import move
 
 class HanoiTestCase(unittest.TestCase):
     def test_hanoi(self):
